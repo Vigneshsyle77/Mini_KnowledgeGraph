@@ -77,7 +77,6 @@ Below are example screenshots from the generated graph:
 |-----------------|-----------------|
 | ![Graph 1](ui/Screenshot1.png) | ![Graph 2](ui/Screenshot2.png) |
 
-(Replace with your screenshots — *Screenshot 2025-11-03 194921.png* and *Screenshot 2025-11-03 195020.png*)
 
 ---
 
