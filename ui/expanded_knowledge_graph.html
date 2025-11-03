@@ -1,0 +1,163 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 800px;
+                 background-color: #1e1e1e;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "lightblue", "font": {"color": "white"}, "id": "Sachs", "label": "Sachs", "shape": "dot", "size": 13, "title": "Subject: Sachs"}, {"color": "lightgreen", "font": {"color": "white"}, "id": "revenue", "label": "revenue", "shape": "dot", "size": 13, "title": "Object: revenue"}, {"color": "lightblue", "font": {"color": "white"}, "id": "University", "label": "University", "shape": "dot", "size": 22, "title": "Subject: University"}, {"color": "lightgreen", "font": {"color": "white"}, "id": "June", "label": "June", "shape": "dot", "size": 16, "title": "Object: June"}, {"color": "lightblue", "font": {"color": "white"}, "id": "Johnson", "label": "Johnson", "shape": "dot", "size": 13, "title": "Subject: Johnson"}, {"color": "lightgreen", "font": {"color": "white"}, "id": "2023", "label": "2023", "shape": "dot", "size": 16, "title": "Object: 2023"}, {"color": "lightgreen", "font": {"color": "white"}, "id": "project", "label": "project", "shape": "dot", "size": 13, "title": "Object: project"}, {"color": "lightblue", "font": {"color": "white"}, "id": "Inc.", "label": "Inc.", "shape": "dot", "size": 13, "title": "Subject: Inc."}, {"color": "lightgreen", "font": {"color": "white"}, "id": "October", "label": "October", "shape": "dot", "size": 13, "title": "Object: October"}, {"color": "lightgreen", "font": {"color": "white"}, "id": "July", "label": "July", "shape": "dot", "size": 13, "title": "Object: July"}, {"color": "lightblue", "font": {"color": "white"}, "id": "Google", "label": "Google", "shape": "dot", "size": 13, "title": "Subject: Google"}, {"color": "lightgreen", "font": {"color": "white"}, "id": "2024", "label": "2024", "shape": "dot", "size": 13, "title": "Object: 2024"}, {"color": "lightgreen", "font": {"color": "white"}, "id": "2020", "label": "2020", "shape": "dot", "size": 13, "title": "Object: 2020"}, {"color": "lightblue", "font": {"color": "white"}, "id": "Services", "label": "Services", "shape": "dot", "size": 13, "title": "Subject: Services"}, {"color": "lightgreen", "font": {"color": "white"}, "id": "India", "label": "India", "shape": "dot", "size": 13, "title": "Object: India"}, {"color": "lightblue", "font": {"color": "white"}, "id": "Bank", "label": "Bank", "shape": "dot", "size": 13, "title": "Subject: Bank"}, {"color": "lightgreen", "font": {"color": "white"}, "id": "April", "label": "April", "shape": "dot", "size": 13, "title": "Object: April"}, {"color": "lightblue", "font": {"color": "white"}, "id": "Walker", "label": "Walker", "shape": "dot", "size": 13, "title": "Subject: Walker"}, {"color": "lightblue", "font": {"color": "white"}, "id": "Carter", "label": "Carter", "shape": "dot", "size": 13, "title": "Subject: Carter"}, {"color": "lightgreen", "font": {"color": "white"}, "id": "surgeon", "label": "surgeon", "shape": "dot", "size": 13, "title": "Object: surgeon"}, {"color": "lightblue", "font": {"color": "white"}, "id": "Musk", "label": "Musk", "shape": "dot", "size": 13, "title": "Subject: Musk"}, {"color": "lightgreen", "font": {"color": "white"}, "id": "event", "label": "event", "shape": "dot", "size": 13, "title": "Object: event"}, {"color": "lightblue", "font": {"color": "white"}, "id": "MIT", "label": "MIT", "shape": "dot", "size": 13, "title": "Subject: MIT"}, {"color": "lightgreen", "font": {"color": "white"}, "id": "2021", "label": "2021", "shape": "dot", "size": 13, "title": "Object: 2021"}, {"color": "lightblue", "font": {"color": "white"}, "id": "Chase", "label": "Chase", "shape": "dot", "size": 13, "title": "Subject: Chase"}, {"color": "lightblue", "font": {"color": "white"}, "id": "Hathaway", "label": "Hathaway", "shape": "dot", "size": 13, "title": "Subject: Hathaway"}, {"color": "lightgreen", "font": {"color": "white"}, "id": "Apple", "label": "Apple", "shape": "dot", "size": 13, "title": "Object: Apple"}, {"color": "lightblue", "font": {"color": "white"}, "id": "Pfizer", "label": "Pfizer", "shape": "dot", "size": 13, "title": "Subject: Pfizer"}, {"color": "lightgreen", "font": {"color": "white"}, "id": "August", "label": "August", "shape": "dot", "size": 13, "title": "Object: August"}, {"color": "lightblue", "font": {"color": "white"}, "id": "Microsoft", "label": "Microsoft", "shape": "dot", "size": 13, "title": "Subject: Microsoft"}, {"color": "lightgreen", "font": {"color": "white"}, "id": "September", "label": "September", "shape": "dot", "size": 13, "title": "Object: September"}, {"color": "lightblue", "font": {"color": "white"}, "id": "Organization", "label": "Organization", "shape": "dot", "size": 13, "title": "Subject: Organization"}, {"color": "lightgreen", "font": {"color": "white"}, "id": "March", "label": "March", "shape": "dot", "size": 13, "title": "Object: March"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "Sachs", "label": "reported", "title": "reported", "to": "revenue", "value": 2.6666666666666665}, {"arrows": "to", "from": "University", "label": "launched", "title": "launched", "to": "June", "value": 2.6666666666666665}, {"arrows": "to", "from": "University", "label": "collaborated", "title": "collaborated", "to": "project", "value": 4.0}, {"arrows": "to", "from": "University", "label": "held", "title": "held", "to": "July", "value": 1.3333333333333333}, {"arrows": "to", "from": "University", "label": "reported", "title": "reported", "to": "2020", "value": 2.6666666666666665}, {"arrows": "to", "from": "Johnson", "label": "conducted", "title": "conducted", "to": "2023", "value": 3.0}, {"arrows": "to", "from": "Inc.", "label": "released", "title": "released", "to": "October", "value": 2.6666666666666665}, {"arrows": "to", "from": "Google", "label": "partnered", "title": "partnered", "to": "2024", "value": 3.0}, {"arrows": "to", "from": "Services", "label": "launched", "title": "launched", "to": "India", "value": 2.6666666666666665}, {"arrows": "to", "from": "Bank", "label": "announced", "title": "announced", "to": "April", "value": 3.0}, {"arrows": "to", "from": "Walker", "label": "presented", "title": "presented", "to": "2023", "value": 3.0}, {"arrows": "to", "from": "Carter", "label": "joined", "title": "joined", "to": "surgeon", "value": 2.0}, {"arrows": "to", "from": "Musk", "label": "unveiled", "title": "unveiled", "to": "event", "value": 2.6666666666666665}, {"arrows": "to", "from": "MIT", "label": "announced", "title": "announced", "to": "2021", "value": 3.0}, {"arrows": "to", "from": "Chase", "label": "acquired", "title": "acquired", "to": "June", "value": 2.6666666666666665}, {"arrows": "to", "from": "Hathaway", "label": "increased", "title": "increased", "to": "Apple", "value": 3.0}, {"arrows": "to", "from": "Pfizer", "label": "announced", "title": "announced", "to": "August", "value": 3.0}, {"arrows": "to", "from": "Microsoft", "label": "introduced", "title": "introduced", "to": "September", "value": 3.3333333333333335}, {"arrows": "to", "from": "Organization", "label": "released", "title": "released", "to": "March", "value": 2.6666666666666665}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "repulsion": {
+            "centralGravity": 0.25,
+            "damping": 0.9,
+            "nodeDistance": 250,
+            "springConstant": 0.05,
+            "springLength": 200
+        },
+        "solver": "repulsion",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
