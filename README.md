@@ -4,12 +4,13 @@
 The **Mini Knowledge Graph Builder** is a Python-based project that extracts entities and relationships from text data and visualizes them in the form of an interactive **Knowledge Graph**.  
 It demonstrates core concepts of **Natural Language Processing (NLP)**, **Relation Extraction**, and **Graph Visualization**.
 
-This project was developed as part of **Milestone 1**, covering:
+This project was developed as part of **Milestone 1 & 2**, covering:
 - Project structure and setup  
 - Data preparation  
 - Named Entity Recognition (NER)  
 - Relation extraction  
-- Graph creation and visualization  
+- Graph creation and visualization
+- Semantic search  
 
 ---
 
@@ -22,12 +23,12 @@ Mini_KnowledgeGraph/
 │   ├── entities.csv                     # Extracted entities (from NER)
 │   ├── relations.csv                    # Extracted relationships
 │   └── extracted_triples.csv            # Combined (Subject, Relation, Object)
-│
+│   └── cross_domain_dataset_backup.csv  # Backup Dataset 
 ├── modules/
 │   ├── ner_extraction.py                # Code for Named Entity Recognition
 │   ├── relation_extraction.py           # Code for extracting relationships
 │   └── graph_builder.py                 # Code for building and visualizing graph
-│
+│   └── semantic_search.py               # code for semantic search 
 ├── ui/
 │   └── expanded_knowledge_graph.html    # Interactive graph output (PyVis)
 │
@@ -68,7 +69,43 @@ ui/expanded_knowledge_graph.html
 You can open it in your browser to explore the knowledge graph.
 
 ---
+The **Semantic Search module** will let you query in natural language and return the top 3 most semantically similar sentences.
 
+---
+
+## 🔍 Example: Semantic Search
+
+### Query:
+
+```
+Who founded a company?
+```
+
+### Output:
+
+```
+✅ Elon Musk founded SpaceX. (score: 0.84)
+✅ Jeff Bezos founded Amazon. (score: 0.82)
+✅ Steve Jobs established Apple. (score: 0.79)
+```
+
+### Query:
+
+```
+Science discoveries
+```
+
+### Output:
+
+```
+✅ Marie Curie discovered Radium. (score: 0.83)
+✅ Isaac Newton formulated the Laws of Motion. (score: 0.81)
+✅ Albert Einstein developed the Theory of Relativity. (score: 0.80)
+```
+
+---
+
+---
 ## 📊 Sample Output
 
 Below are example screenshots from the generated graph:
