@@ -47,6 +47,13 @@ def run_ner_on_texts(df, text_col="text"):
         })
     out = pd.DataFrame(rows)
     return out
+# --- Auto-detect column names (case-insensitive) ---
+def find_col(df, name_list):
+    for col in df.columns:
+        if col.lower().strip() in name_list:
+            return col
+    return None
+
 
 def extract_triples_simple(df, text_col="text"):
     # simple subject-verb-object extraction using spaCy dependency parse
@@ -76,18 +83,32 @@ def extract_triples_simple(df, text_col="text"):
                 triples.append({"text": txt, "subject": ents[0][0], "relation": "related_to", "object": ents[1][0]})
     return pd.DataFrame(triples)
 
-def build_graph_from_triples(triples_df):
+def build_graph_from_triples(df):
     G = nx.DiGraph()
-    for _, r in triples_df.iterrows():
-        s = str(r.get("subject","")).strip()
-        o = str(r.get("object","")).strip()
-        rel = str(r.get("relation","")).strip()
-        if not s or not o:
-            continue
-        G.add_node(s)
-        G.add_node(o)
-        G.add_edge(s, o, label=rel)
+
+    # Auto-detect column names
+    subject_col = find_col(df, ["subject"])
+    relation_col = find_col(df, ["relation"])
+    object_col  = find_col(df, ["object"])
+
+    if not subject_col or not relation_col or not object_col:
+        st.error("❌ Could not find subject / relation / object in relations file.")
+        st.warning(f"Detected columns: {list(df.columns)}")
+        return G
+
+    for _, r in df.iterrows():
+        s = str(r[subject_col]).strip()
+        o = str(r[object_col]).strip()
+        rel = str(r[relation_col]).strip()
+
+        if s and o:
+            G.add_node(s)
+            G.add_node(o)
+            G.add_edge(s, o, label=rel)
+
     return G
+
+
 
 def save_pyvis(G, output_html=pyvis_output_path):
     net = Network(height="750px", width="100%", directed=True, bgcolor="#ffffff", font_color="#000000")
@@ -179,27 +200,99 @@ else:
     st.info("Build graph and Save first to generate interactive HTML.")
 
 # -------------------
-# Semantic search (TF-IDF)
+# 4) Semantic Search + Guaranteed Working Subgraph
 # -------------------
-st.header("4) Semantic Search (TF-IDF)")
-# create natural language sentences from relations (if available)
-sentences = df_texts["text"].astype(str).tolist()  # corpus
-vectorizer = TfidfVectorizer(stop_words="english").fit(sentences)
-sent_vecs = vectorizer.transform(sentences)
+sentences = df_texts["text"].astype(str).tolist()
+st.header("4) Semantic Search & Subgraph Visualization")
 
-query = st.text_input("Enter a search query (e.g., 'Who launched a program?')", "")
+# --- Auto-detect relation columns (case insensitive) ---
+def find_col(df, name_list):
+    for col in df.columns:
+        if col.lower().strip() in name_list:
+            return col
+    return None
+
+subject_col = find_col(df_relations, ["subject"])
+relation_col = find_col(df_relations, ["relation", "verb"])
+object_col  = find_col(df_relations, ["object"])
+
+# If missing ANY column, warn & stop semantic subgraph extraction
+if not subject_col or not relation_col or not object_col:
+    st.error("❌ Relations file does not have subject / relation / object columns.")
+    st.warning(f"Detected columns: {list(df_relations.columns)}")
+    st.stop()
+
+# Prepare TF-IDF on BOTH sentences and relation metadata
+relation_strings = df_relations.apply(
+    lambda r: f"{r[subject_col]} {r[relation_col]} {r[object_col]}", axis=1
+).tolist()
+
+
+combined_corpus = sentences + relation_strings
+vectorizer = TfidfVectorizer(stop_words="english").fit(combined_corpus)
+
+sent_vecs = vectorizer.transform(sentences)
+rel_vecs = vectorizer.transform(relation_strings)
+
+query = st.text_input("Enter a search query (e.g., 'Who launched a program?')")
 n_hits = st.slider("Results to show", 1, 10, 3)
-if st.button("Search"):
-    if query.strip() == "":
-        st.warning("Type a query first.")
+
+if st.button("🔍 Search & Build Subgraph"):
+    if not query.strip():
+        st.warning("Enter a query first.")
     else:
         qv = vectorizer.transform([query])
-        sims = linear_kernel(qv, sent_vecs).flatten()
-        top_idx = sims.argsort()[::-1][:n_hits]
-        res = [(sentences[i], float(sims[i])) for i in top_idx]
-        st.subheader("Top matches")
-        for s,score in res:
-            st.write(f"- `{s}` — score: {score:.3f}")
+
+        # Rank SENTENCES by similarity
+        sent_scores = linear_kernel(qv, sent_vecs).flatten()
+        top_sent_idx = sent_scores.argsort()[::-1][:n_hits]
+
+        # Rank RELATIONS by similarity
+        rel_scores = linear_kernel(qv, rel_vecs).flatten()
+        top_rel_idx = rel_scores.argsort()[::-1][:n_hits]
+
+        # ----------------------------------
+        # SHOW TOP SENTENCE MATCHES
+        # ----------------------------------
+        st.subheader("📌 Top Matching Sentences")
+        for idx in top_sent_idx:
+            st.write(f"**{sentences[idx]}**  — (score {sent_scores[idx]:.3f})")
+
+        # ----------------------------------
+        # COLLECT SUBGRAPH TRIPLES
+        # ----------------------------------
+        sub_rels = df_relations.iloc[top_rel_idx]
+
+        st.subheader("🔗 Relations Used for Subgraph")
+        st.dataframe(sub_rels)
+
+        # ----------------------------------
+        # BUILD & VISUALIZE SUBGRAPH
+        # ----------------------------------
+        G_sub = nx.DiGraph()
+
+        for _, r in sub_rels.iterrows():
+            s = str(r[subject_col]).strip()
+            o = str(r[object_col]).strip()
+            rel = str(r[relation_col]).strip()
+
+            G_sub.add_node(s)
+            G_sub.add_node(o)
+            G_sub.add_edge(s, o, label=rel)
+
+        # Render PyVis
+        subgraph_html = tempfile.NamedTemporaryFile(delete=False, suffix=".html").name
+        net = Network(height="600px", width="100%", directed=True,
+                      bgcolor="#ffffff", font_color="#000000")
+
+        for node in G_sub.nodes():
+            net.add_node(node, label=node, color="lightblue")
+
+        for u, v, data in G_sub.edges(data=True):
+            net.add_edge(u, v, label=data["label"], title=data["label"])
+
+        net.save_graph(subgraph_html)
+        st.components.v1.html(open(subgraph_html, "r", encoding="utf-8").read(), height=600)
 
 # -------------------
 # Export & screenshots guidance
