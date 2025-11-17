@@ -8,6 +8,7 @@ import networkx as nx
 from pyvis.network import Network
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
+from graph_cleaner import clean_graph
 import tempfile
 
 nlp = spacy.load("en_core_web_sm")
@@ -181,6 +182,17 @@ with colB:
 df_entities.to_csv(processed_entities_path, index=False)
 df_relations.to_csv(processed_relations_path, index=False)
 
+st.header("🧹  Graph Cleaning Module")
+
+if st.button("Run Graph Cleaning"):
+    df_relations_cleaned = clean_graph(df_relations)
+
+    df_relations_cleaned.to_csv("data/processed/relations_cleaned.csv", index=False)
+    st.success("Graph cleaned! Saved as relations_cleaned.csv")
+
+    st.subheader("Cleaned Relations Preview")
+    st.dataframe(df_relations_cleaned.head(20))
+
 # -------------------
 # Build graph and visualise
 # -------------------
@@ -295,16 +307,49 @@ if st.button("🔍 Search & Build Subgraph"):
         st.components.v1.html(open(subgraph_html, "r", encoding="utf-8").read(), height=600)
 
 # -------------------
-# Export & screenshots guidance
+# Export & Screenshot Guidance
 # -------------------
 st.header("5) Export & Screenshot Guidance")
+
 st.markdown("""
-**Screenshots to capture for submission (manually):**
-1. **Uploaded dataset view** — The table shown in *Dataset Upload & Preview*.  
-2. **Extracted entities/relations table** — The two tables under *Extracted Entities & Relations*.  
-3. **Knowledge graph visualization** — Click **Build & Save Interactive Graph** then open `ui/knowledge_graph.html` in browser and screenshot.  
-4. **Query-based subgraph** — Run a semantic search query that returns a sentence, then open a subgraph by filtering relations (manually capture the area or implement filter in the code if you want automatic subgraph extraction).
+Below are the screenshots you must include in the submission.
+
+### **1. Uploaded Dataset View**
 """)
+st.image("images/dataset_preview.png",
+         caption="Dataset Preview Screenshot",
+         use_container_width=True)
+
+st.markdown("""
+### **2. Extracted Entities & Relations Table**
+""")
+st.image("images/entities_relations_table.png",
+         caption="Entities & Relations Table Screenshot",
+         use_container_width=True)
+
+st.markdown("""
+### **3. Full Knowledge Graph Visualization**
+""")
+st.image("images/full_graph.png",
+         caption="Full Knowledge Graph Screenshot",
+         use_container_width=True)
+
+st.markdown("""
+### **4. Semantic Search Results**
+""")
+st.image("images/semantic_search_results.png",
+         caption="Semantic Search Results Screenshot",
+         use_container_width=True)
+
+st.markdown("""
+### **5. Subgraph Generated from Query**
+""")
+st.image("images/subgraph.png",
+         caption="Semantic Subgraph Screenshot",
+         use_container_width=True)
+
+
+# st.success("All expected screenshots have been listed. Please include them in your final submission.")
 
 st.markdown("### Saved file locations (inside your project):")
 st.write(f"- Entities CSV: `{processed_entities_path}`")
