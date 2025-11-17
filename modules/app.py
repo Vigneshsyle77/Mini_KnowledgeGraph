@@ -11,7 +11,15 @@ from sklearn.metrics.pairwise import linear_kernel
 from graph_cleaner import clean_graph
 import tempfile
 
-nlp = spacy.load("en_core_web_sm")
+import spacy
+
+# Auto-download SpaCy model if not present
+try:
+    nlp = spacy.load("en_core_web_sm")
+except:
+    import spacy.cli
+    spacy.cli.download("en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
 
 st.set_page_config(page_title="AI-KnowMap — Full Prototype", layout="wide")
 st.title("🧠 AI-KnowMap — Full Prototype")
