@@ -1,22 +1,29 @@
 # modules/full_app.py
 import streamlit as st
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 import pandas as pd
 import os
 import ast
 import spacy
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 import networkx as nx
 from pyvis.network import Network
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
+<<<<<<< Updated upstream
 from graph_cleaner import clean_graph
 import tempfile
 
 <<<<<<< Updated upstream
 import spacy
 =======
+=======
+
+>>>>>>> Stashed changes
 # -------------------------
 # Ensure repo root on path (useful for imports)
 # -------------------------
@@ -295,6 +302,9 @@ def build_graph_from_triples_df(df_triples):
             rel = str(r.get(rel_col, "")).strip()
         except Exception:
             continue
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         if s and o:
             G.add_node(s)
@@ -681,6 +691,7 @@ def page_semantic_search():
 
         for u, v, data in G_sub.edges(data=True):
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             net.add_edge(u, v, label=data["label"], title=data["label"])
 
         net.save_graph(subgraph_html)
@@ -694,6 +705,8 @@ st.header("5) Export & Screenshot Guidance")
 st.markdown("""
 Below are the screenshots you must include in the submission.
 =======
+=======
+>>>>>>> Stashed changes
             net.add_edge(u, v, title=data.get("label", ""), label=data.get("label", ""))
         net.save_graph(sub_html)
         st.components.v1.html(open(sub_html, "r", encoding="utf-8").read(), height=520)
@@ -810,6 +823,7 @@ st.image("images/entities_relations_table.png",
          use_container_width=True)
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 st.markdown("""
 ### **3. Full Knowledge Graph Visualization**
 """)
@@ -824,6 +838,8 @@ st.image("images/semantic_search_results.png",
          caption="Semantic Search Results Screenshot",
          use_container_width=True)
 =======
+=======
+>>>>>>> Stashed changes
 # App logs
 st.session_state.setdefault("app_logs", []).append({"time": pd.Timestamp.now(), "event": f"Visited {menu}"})
 
