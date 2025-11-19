@@ -1,3 +1,492 @@
 text,subject,relation,object
+<<<<<<< Updated upstream
 Goldman Sachs reported a 10% rise in revenue last quarter.,Sachs,report,rise
 "Harvard University launched a new AI program on June 10, 2024.",University,launch,program
+=======
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+"Elon Musk invested in Bitcoin in 2021, influencing global markets.",Elon Musk,invested,Bitcoin
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+The University of Cambridge held its annual convocation in July 2022.,Cambridge,held,July
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+Amazon Web Services launched new cloud infrastructure in India last year.,Amazon Web Services,launched,India
+The Reserve Bank of India announced new monetary policies in April 2023.,India,announced,April
+Dr. Emily Carter joined the Mayo Clinic as a senior surgeon last year.,Dr. Emily Carter,related_to,Emily Carter
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+The Reserve Bank of India announced new monetary policies in April 2023.,India,announced,April
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+The University of Cambridge held its annual convocation in July 2022.,Cambridge,held,July
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+MIT announced new scholarships for data science students in 2021.,MIT,announced,new
+Amazon Web Services launched new cloud infrastructure in India last year.,Amazon Web Services,launched,India
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+Dr. Emily Carter joined the Mayo Clinic as a senior surgeon last year.,Dr. Emily Carter,related_to,Emily Carter
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+The University of Cambridge held its annual convocation in July 2022.,Cambridge,held,July
+Dr. Emily Carter joined the Mayo Clinic as a senior surgeon last year.,Dr. Emily Carter,related_to,Emily Carter
+The University of Cambridge held its annual convocation in July 2022.,Cambridge,held,July
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+JP Morgan Chase acquired a fintech startup in June 2022.,2022,related_to,June
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+MIT announced new scholarships for data science students in 2021.,MIT,announced,new
+Warren Buffett’s Berkshire Hathaway increased its holdings in Apple last year.,Warren Buffett,related_to,Berkshire Hathaway
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+The University of Cambridge held its annual convocation in July 2022.,Cambridge,held,July
+The World Health Organization released new COVID-19 guidelines in March 2021.,The World Health Organization,released,COVID-19
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+Dr. Emily Carter joined the Mayo Clinic as a senior surgeon last year.,Dr. Emily Carter,related_to,Emily Carter
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+The Reserve Bank of India announced new monetary policies in April 2023.,India,announced,April
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+The Reserve Bank of India announced new monetary policies in April 2023.,India,announced,April
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+MIT announced new scholarships for data science students in 2021.,MIT,announced,new
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+"Elon Musk invested in Bitcoin in 2021, influencing global markets.",Elon Musk,invested,Bitcoin
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+The Reserve Bank of India announced new monetary policies in April 2023.,India,announced,April
+Dr. Emily Carter joined the Mayo Clinic as a senior surgeon last year.,Dr. Emily Carter,related_to,Emily Carter
+The Reserve Bank of India announced new monetary policies in April 2023.,India,announced,April
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+The Reserve Bank of India announced new monetary policies in April 2023.,India,announced,April
+The University of Cambridge held its annual convocation in July 2022.,Cambridge,held,July
+The Reserve Bank of India announced new monetary policies in April 2023.,India,announced,April
+The Reserve Bank of India announced new monetary policies in April 2023.,India,announced,April
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+MIT announced new scholarships for data science students in 2021.,MIT,announced,new
+Dr. Emily Carter joined the Mayo Clinic as a senior surgeon last year.,Dr. Emily Carter,related_to,Emily Carter
+The University of Cambridge held its annual convocation in July 2022.,Cambridge,held,July
+JP Morgan Chase acquired a fintech startup in June 2022.,2022,related_to,June
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+JP Morgan Chase acquired a fintech startup in June 2022.,2022,related_to,June
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+Warren Buffett’s Berkshire Hathaway increased its holdings in Apple last year.,Warren Buffett,related_to,Berkshire Hathaway
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+The World Health Organization released new COVID-19 guidelines in March 2021.,The World Health Organization,released,COVID-19
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+Warren Buffett’s Berkshire Hathaway increased its holdings in Apple last year.,Warren Buffett,related_to,Berkshire Hathaway
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+Dr. Emily Carter joined the Mayo Clinic as a senior surgeon last year.,Dr. Emily Carter,related_to,Emily Carter
+Warren Buffett’s Berkshire Hathaway increased its holdings in Apple last year.,Warren Buffett,related_to,Berkshire Hathaway
+The World Health Organization released new COVID-19 guidelines in March 2021.,The World Health Organization,released,COVID-19
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+Dr. Emily Carter joined the Mayo Clinic as a senior surgeon last year.,Dr. Emily Carter,related_to,Emily Carter
+JP Morgan Chase acquired a fintech startup in June 2022.,2022,related_to,June
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+The World Health Organization released new COVID-19 guidelines in March 2021.,The World Health Organization,released,COVID-19
+Dr. Emily Carter joined the Mayo Clinic as a senior surgeon last year.,Dr. Emily Carter,related_to,Emily Carter
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+The World Health Organization released new COVID-19 guidelines in March 2021.,The World Health Organization,released,COVID-19
+Amazon Web Services launched new cloud infrastructure in India last year.,Amazon Web Services,launched,India
+Amazon Web Services launched new cloud infrastructure in India last year.,Amazon Web Services,launched,India
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+MIT announced new scholarships for data science students in 2021.,MIT,announced,new
+The University of Cambridge held its annual convocation in July 2022.,Cambridge,held,July
+Warren Buffett’s Berkshire Hathaway increased its holdings in Apple last year.,Warren Buffett,related_to,Berkshire Hathaway
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+"Elon Musk invested in Bitcoin in 2021, influencing global markets.",Elon Musk,invested,Bitcoin
+"Elon Musk invested in Bitcoin in 2021, influencing global markets.",Elon Musk,invested,Bitcoin
+Dr. Emily Carter joined the Mayo Clinic as a senior surgeon last year.,Dr. Emily Carter,related_to,Emily Carter
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+Warren Buffett’s Berkshire Hathaway increased its holdings in Apple last year.,Warren Buffett,related_to,Berkshire Hathaway
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+Dr. Emily Carter joined the Mayo Clinic as a senior surgeon last year.,Dr. Emily Carter,related_to,Emily Carter
+MIT announced new scholarships for data science students in 2021.,MIT,announced,new
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+Amazon Web Services launched new cloud infrastructure in India last year.,Amazon Web Services,launched,India
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+The Reserve Bank of India announced new monetary policies in April 2023.,India,announced,April
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+The World Health Organization released new COVID-19 guidelines in March 2021.,The World Health Organization,released,COVID-19
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+The Reserve Bank of India announced new monetary policies in April 2023.,India,announced,April
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+The University of Cambridge held its annual convocation in July 2022.,Cambridge,held,July
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+JP Morgan Chase acquired a fintech startup in June 2022.,2022,related_to,June
+Amazon Web Services launched new cloud infrastructure in India last year.,Amazon Web Services,launched,India
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+The University of Cambridge held its annual convocation in July 2022.,Cambridge,held,July
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+Warren Buffett’s Berkshire Hathaway increased its holdings in Apple last year.,Warren Buffett,related_to,Berkshire Hathaway
+The University of Cambridge held its annual convocation in July 2022.,Cambridge,held,July
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+MIT announced new scholarships for data science students in 2021.,MIT,announced,new
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+Amazon Web Services launched new cloud infrastructure in India last year.,Amazon Web Services,launched,India
+Amazon Web Services launched new cloud infrastructure in India last year.,Amazon Web Services,launched,India
+The University of Cambridge held its annual convocation in July 2022.,Cambridge,held,July
+Dr. Emily Carter joined the Mayo Clinic as a senior surgeon last year.,Dr. Emily Carter,related_to,Emily Carter
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+MIT announced new scholarships for data science students in 2021.,MIT,announced,new
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+MIT announced new scholarships for data science students in 2021.,MIT,announced,new
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+"Elon Musk invested in Bitcoin in 2021, influencing global markets.",Elon Musk,invested,Bitcoin
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+The World Health Organization released new COVID-19 guidelines in March 2021.,The World Health Organization,released,COVID-19
+Amazon Web Services launched new cloud infrastructure in India last year.,Amazon Web Services,launched,India
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+Amazon Web Services launched new cloud infrastructure in India last year.,Amazon Web Services,launched,India
+MIT announced new scholarships for data science students in 2021.,MIT,announced,new
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+The Reserve Bank of India announced new monetary policies in April 2023.,India,announced,April
+The Reserve Bank of India announced new monetary policies in April 2023.,India,announced,April
+Warren Buffett’s Berkshire Hathaway increased its holdings in Apple last year.,Warren Buffett,related_to,Berkshire Hathaway
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+The World Health Organization released new COVID-19 guidelines in March 2021.,The World Health Organization,released,COVID-19
+JP Morgan Chase acquired a fintech startup in June 2022.,2022,related_to,June
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+The World Health Organization released new COVID-19 guidelines in March 2021.,The World Health Organization,released,COVID-19
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+Dr. Emily Carter joined the Mayo Clinic as a senior surgeon last year.,Dr. Emily Carter,related_to,Emily Carter
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+Amazon Web Services launched new cloud infrastructure in India last year.,Amazon Web Services,launched,India
+The World Health Organization released new COVID-19 guidelines in March 2021.,The World Health Organization,released,COVID-19
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+"Elon Musk invested in Bitcoin in 2021, influencing global markets.",Elon Musk,invested,Bitcoin
+MIT announced new scholarships for data science students in 2021.,MIT,announced,new
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+Warren Buffett’s Berkshire Hathaway increased its holdings in Apple last year.,Warren Buffett,related_to,Berkshire Hathaway
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+"Elon Musk invested in Bitcoin in 2021, influencing global markets.",Elon Musk,invested,Bitcoin
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+Warren Buffett’s Berkshire Hathaway increased its holdings in Apple last year.,Warren Buffett,related_to,Berkshire Hathaway
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+The University of Cambridge held its annual convocation in July 2022.,Cambridge,held,July
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+The Reserve Bank of India announced new monetary policies in April 2023.,India,announced,April
+The University of Cambridge held its annual convocation in July 2022.,Cambridge,held,July
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+"Elon Musk invested in Bitcoin in 2021, influencing global markets.",Elon Musk,invested,Bitcoin
+JP Morgan Chase acquired a fintech startup in June 2022.,2022,related_to,June
+The University of Cambridge held its annual convocation in July 2022.,Cambridge,held,July
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+MIT announced new scholarships for data science students in 2021.,MIT,announced,new
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+Amazon Web Services launched new cloud infrastructure in India last year.,Amazon Web Services,launched,India
+Warren Buffett’s Berkshire Hathaway increased its holdings in Apple last year.,Warren Buffett,related_to,Berkshire Hathaway
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+JP Morgan Chase acquired a fintech startup in June 2022.,2022,related_to,June
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+The University of Cambridge held its annual convocation in July 2022.,Cambridge,held,July
+"Elon Musk invested in Bitcoin in 2021, influencing global markets.",Elon Musk,invested,Bitcoin
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+The University of Cambridge held its annual convocation in July 2022.,Cambridge,held,July
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+The University of Cambridge held its annual convocation in July 2022.,Cambridge,held,July
+Warren Buffett’s Berkshire Hathaway increased its holdings in Apple last year.,Warren Buffett,related_to,Berkshire Hathaway
+Amazon Web Services launched new cloud infrastructure in India last year.,Amazon Web Services,launched,India
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+JP Morgan Chase acquired a fintech startup in June 2022.,2022,related_to,June
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+Warren Buffett’s Berkshire Hathaway increased its holdings in Apple last year.,Warren Buffett,related_to,Berkshire Hathaway
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+The Reserve Bank of India announced new monetary policies in April 2023.,India,announced,April
+The World Health Organization released new COVID-19 guidelines in March 2021.,The World Health Organization,released,COVID-19
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+Amazon Web Services launched new cloud infrastructure in India last year.,Amazon Web Services,launched,India
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+JP Morgan Chase acquired a fintech startup in June 2022.,2022,related_to,June
+Dr. Emily Carter joined the Mayo Clinic as a senior surgeon last year.,Dr. Emily Carter,related_to,Emily Carter
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+Dr. Emily Carter joined the Mayo Clinic as a senior surgeon last year.,Dr. Emily Carter,related_to,Emily Carter
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+"Elon Musk invested in Bitcoin in 2021, influencing global markets.",Elon Musk,invested,Bitcoin
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+The World Health Organization released new COVID-19 guidelines in March 2021.,The World Health Organization,released,COVID-19
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+"Elon Musk invested in Bitcoin in 2021, influencing global markets.",Elon Musk,invested,Bitcoin
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+Amazon Web Services launched new cloud infrastructure in India last year.,Amazon Web Services,launched,India
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+Amazon Web Services launched new cloud infrastructure in India last year.,Amazon Web Services,launched,India
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+The World Health Organization released new COVID-19 guidelines in March 2021.,The World Health Organization,released,COVID-19
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+The Reserve Bank of India announced new monetary policies in April 2023.,India,announced,April
+The Reserve Bank of India announced new monetary policies in April 2023.,India,announced,April
+The World Health Organization released new COVID-19 guidelines in March 2021.,The World Health Organization,released,COVID-19
+Dr. Emily Carter joined the Mayo Clinic as a senior surgeon last year.,Dr. Emily Carter,related_to,Emily Carter
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+MIT announced new scholarships for data science students in 2021.,MIT,announced,new
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+"Elon Musk invested in Bitcoin in 2021, influencing global markets.",Elon Musk,invested,Bitcoin
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+"Elon Musk invested in Bitcoin in 2021, influencing global markets.",Elon Musk,invested,Bitcoin
+The World Health Organization released new COVID-19 guidelines in March 2021.,The World Health Organization,released,COVID-19
+The World Health Organization released new COVID-19 guidelines in March 2021.,The World Health Organization,released,COVID-19
+The World Health Organization released new COVID-19 guidelines in March 2021.,The World Health Organization,released,COVID-19
+JP Morgan Chase acquired a fintech startup in June 2022.,2022,related_to,June
+The University of Cambridge held its annual convocation in July 2022.,Cambridge,held,July
+Warren Buffett’s Berkshire Hathaway increased its holdings in Apple last year.,Warren Buffett,related_to,Berkshire Hathaway
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+The Reserve Bank of India announced new monetary policies in April 2023.,India,announced,April
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+MIT announced new scholarships for data science students in 2021.,MIT,announced,new
+Warren Buffett’s Berkshire Hathaway increased its holdings in Apple last year.,Warren Buffett,related_to,Berkshire Hathaway
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+MIT announced new scholarships for data science students in 2021.,MIT,announced,new
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+The World Health Organization released new COVID-19 guidelines in March 2021.,The World Health Organization,released,COVID-19
+The University of Cambridge held its annual convocation in July 2022.,Cambridge,held,July
+Warren Buffett’s Berkshire Hathaway increased its holdings in Apple last year.,Warren Buffett,related_to,Berkshire Hathaway
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+Dr. Emily Carter joined the Mayo Clinic as a senior surgeon last year.,Dr. Emily Carter,related_to,Emily Carter
+The Reserve Bank of India announced new monetary policies in April 2023.,India,announced,April
+Amazon Web Services launched new cloud infrastructure in India last year.,Amazon Web Services,launched,India
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+"Elon Musk invested in Bitcoin in 2021, influencing global markets.",Elon Musk,invested,Bitcoin
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+Dr. Emily Carter joined the Mayo Clinic as a senior surgeon last year.,Dr. Emily Carter,related_to,Emily Carter
+The University of Cambridge held its annual convocation in July 2022.,Cambridge,held,July
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+"Elon Musk invested in Bitcoin in 2021, influencing global markets.",Elon Musk,invested,Bitcoin
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+MIT announced new scholarships for data science students in 2021.,MIT,announced,new
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+"Elon Musk invested in Bitcoin in 2021, influencing global markets.",Elon Musk,invested,Bitcoin
+MIT announced new scholarships for data science students in 2021.,MIT,announced,new
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+Amazon Web Services launched new cloud infrastructure in India last year.,Amazon Web Services,launched,India
+MIT announced new scholarships for data science students in 2021.,MIT,announced,new
+MIT announced new scholarships for data science students in 2021.,MIT,announced,new
+The Reserve Bank of India announced new monetary policies in April 2023.,India,announced,April
+"Elon Musk invested in Bitcoin in 2021, influencing global markets.",Elon Musk,invested,Bitcoin
+Amazon Web Services launched new cloud infrastructure in India last year.,Amazon Web Services,launched,India
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+The Reserve Bank of India announced new monetary policies in April 2023.,India,announced,April
+The Reserve Bank of India announced new monetary policies in April 2023.,India,announced,April
+Amazon Web Services launched new cloud infrastructure in India last year.,Amazon Web Services,launched,India
+Dr. Emily Carter joined the Mayo Clinic as a senior surgeon last year.,Dr. Emily Carter,related_to,Emily Carter
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+Amazon Web Services launched new cloud infrastructure in India last year.,Amazon Web Services,launched,India
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+The Reserve Bank of India announced new monetary policies in April 2023.,India,announced,April
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+MIT announced new scholarships for data science students in 2021.,MIT,announced,new
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+Warren Buffett’s Berkshire Hathaway increased its holdings in Apple last year.,Warren Buffett,related_to,Berkshire Hathaway
+The World Health Organization released new COVID-19 guidelines in March 2021.,The World Health Organization,released,COVID-19
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+"Elon Musk invested in Bitcoin in 2021, influencing global markets.",Elon Musk,invested,Bitcoin
+Amazon Web Services launched new cloud infrastructure in India last year.,Amazon Web Services,launched,India
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+Dr. Emily Carter joined the Mayo Clinic as a senior surgeon last year.,Dr. Emily Carter,related_to,Emily Carter
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+Dr. Emily Carter joined the Mayo Clinic as a senior surgeon last year.,Dr. Emily Carter,related_to,Emily Carter
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+The University of Cambridge held its annual convocation in July 2022.,Cambridge,held,July
+The University of Cambridge held its annual convocation in July 2022.,Cambridge,held,July
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+The World Health Organization released new COVID-19 guidelines in March 2021.,The World Health Organization,released,COVID-19
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+Dr. Emily Carter joined the Mayo Clinic as a senior surgeon last year.,Dr. Emily Carter,related_to,Emily Carter
+The World Health Organization released new COVID-19 guidelines in March 2021.,The World Health Organization,released,COVID-19
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+Amazon Web Services launched new cloud infrastructure in India last year.,Amazon Web Services,launched,India
+"Apple Inc. released the iPhone 15 on October 15, 2023.",Apple Inc,released,Phone
+Amazon Web Services launched new cloud infrastructure in India last year.,Amazon Web Services,launched,India
+Dr. Sarah Johnson conducted a study on diabetes in 2023.,Sarah Johnson,conducted,a
+The World Health Organization released new COVID-19 guidelines in March 2021.,The World Health Organization,released,COVID-19
+Dr. Emily Carter joined the Mayo Clinic as a senior surgeon last year.,Dr. Emily Carter,related_to,Emily Carter
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+Amazon Web Services launched new cloud infrastructure in India last year.,Amazon Web Services,launched,India
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+The World Health Organization released new COVID-19 guidelines in March 2021.,The World Health Organization,released,COVID-19
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+Goldman Sachs reported a 10% rise in revenue last quarter.,Goldman Sachs,reported,a
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+The World Health Organization released new COVID-19 guidelines in March 2021.,The World Health Organization,released,COVID-19
+"Elon Musk invested in Bitcoin in 2021, influencing global markets.",Elon Musk,invested,Bitcoin
+Amazon Web Services launched new cloud infrastructure in India last year.,Amazon Web Services,launched,India
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+Google partnered with NASA to advance quantum computing in 2024.,Google,partnered,NASA
+MIT announced new scholarships for data science students in 2021.,MIT,announced,new
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+John Hopkins University reported an increase in mental health cases in 2020.,John Hopkins University,reported,an
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+"Harvard University launched a new AI program on June 10, 2024.",Harvard University,launched,AI
+"Elon Musk invested in Bitcoin in 2021, influencing global markets.",Elon Musk,invested,Bitcoin
+JP Morgan Chase acquired a fintech startup in June 2022.,2022,related_to,June
+The Reserve Bank of India announced new monetary policies in April 2023.,India,announced,April
+"Elon Musk invested in Bitcoin in 2021, influencing global markets.",Elon Musk,invested,Bitcoin
+"Elon Musk invested in Bitcoin in 2021, influencing global markets.",Elon Musk,invested,Bitcoin
+The University of Cambridge held its annual convocation in July 2022.,Cambridge,held,July
+Pfizer announced a new vaccine trial in August 2022.,Pfizer,announced,August
+The Reserve Bank of India announced new monetary policies in April 2023.,India,announced,April
+Elon Musk unveiled the new Tesla chip during a 2022 event.,2022,related_to,Elon Musk
+"Elon Musk invested in Bitcoin in 2021, influencing global markets.",Elon Musk,invested,Bitcoin
+Stanford University collaborated with Google on an AI ethics project last December.,Stanford University,collaborated,Google
+The Reserve Bank of India announced new monetary policies in April 2023.,India,announced,April
+The World Health Organization released new COVID-19 guidelines in March 2021.,The World Health Organization,released,COVID-19
+>>>>>>> Stashed changes
