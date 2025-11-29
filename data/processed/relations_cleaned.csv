@@ -1,3 +1,151 @@
-text,subject,relation,object
-Goldman Sachs reported a 10% rise in revenue last quarter.,Sachs,report,rise
-"Harvard University launched a new AI program on June 10, 2024.",University,launch,program
+subject,relation,object
+Marissa Mayer,announced,SpaceX
+Apple,released,a
+Max Planck Institute,announced,a
+1991,related_to,Isaac Newton
+Barack Obama,announced,Washington
+Angela Merkel,related_to,New Delhi
+Angela Merkel,announced,Geneva
+CIMMYT,related_to,USA
+CERN,announced,a
+Sundar Pichai,related_to,CEO
+was,reported,Apple
+Harvard University,reported,Cape Town
+Barack Obama,related_to,United Nations
+Kamala Harris,announced,Geneva
+FC Barcelona,announced,a
+Sundar Pichai,announced,SpaceX
+Intel,released,a
+Kamala Harris,related_to,USA
+NBA,announced,a
+Barack Obama,announced,Geneva
+Barack Obama,related_to,USA
+Satya Nadella,related_to,Silicon Valley
+Sundar Pichai,related_to,Reliance Industries
+Max Planck Institute,reported,Geneva
+Metropolitan Opera,related_to,New York
+United Nations,related_to,USA
+Lionel Messi,related_to,UK
+NASA,announced,a
+European Union,related_to,New Delhi
+CERN,reported,Cambridge
+Sydney Opera House,announced,New York
+SpaceX,released,a
+Serena Williams,related_to,UK
+was,reported,OpenAI
+Wimbledon,announced,a
+Indra Nooyi,related_to,CEO
+Lionel Messi,related_to,NBA
+Norman Borlaug,related_to,USA
+Sydney Opera House,announced,Madrid
+AI-driven,reported,Apple
+Wangari Maathai,related_to,USA
+was,reported,SpaceX
+Albert Einstein,related_to,NASA
+NASA,reported,Cambridge
+Kamala Harris,announced,Washington
+Google,released,a
+Ada Lovelace,related_to,UK
+Grace Hopper,announced,Apple
+Tim Cook,related_to,CEO
+NASA,reported,Cape Town
+Jane Goodall,related_to,CERN
+European Union,related_to,USA
+Satya Nadella,related_to,AI
+Tim Berners-Lee,announced,Google
+Rosalind Franklin,related_to,Institute
+1980,related_to,Rosalind Franklin
+Kamala Harris,related_to,European Union
+Grace Hopper,announced,AI-driven
+Angela Merkel,related_to,European Union
+Mary Barra,related_to,CEO
+Marissa Mayer,related_to,AI
+Marie Curie,related_to,CERN
+Harvard University,announced,a
+The Treaty,related_to,Mughal Empire
+Reliance Industries,related_to,Goldman Sachs
+Jane Goodall,related_to,NASA
+Narendra Modi,announced,Geneva
+Marissa Mayer,related_to,Silicon Valley
+Narendra Modi,announced,New Delhi
+UK,related_to,NBA
+Marissa Mayer,announced,Apple
+New York,related_to,Goldman Sachs
+Jamie Dimon,related_to,CEO
+Rachel Carson,related_to,USA
+Pablo Picasso,related_to,Sydney Opera House
+UK,related_to,FC
+Isaac Newton,related_to,CERN
+Harvard University,reported,Cambridge
+Angela Merkel,announced,Washington
+CERN,reported,Cape Town
+was,reported,Intel
+Elon Musk,announced,IBM
+Kamala Harris,announced,New Delhi
+FAO,related_to,USA
+Narendra Modi,announced,Washington
+Serena Williams,related_to,NBA
+Rosalind Franklin,related_to,University
+Tate Modern,related_to,New York
+Team India,related_to,UK
+Team India,announced,a
+Elon Musk,related_to,UK
+Sundar Pichai,related_to,Silicon Valley
+was,reported,IBM
+Mary Barra,related_to,Reliance Industries
+NASA,reported,Geneva
+Harvard University,reported,Geneva
+New York,related_to,USA
+Pablo Picasso,related_to,Tate Modern
+Pablo Picasso,related_to,Metropolitan Opera
+Marissa Mayer,announced,Intel
+Louvre Museum,announced,Paris
+Isaac Newton,related_to,NASA
+IBM,released,AI-driven
+1912,related_to,Marie Curie
+Albert Einstein,related_to,CERN
+Narendra Modi,related_to,USA
+Grace Hopper,related_to,Silicon Valley
+Marie Curie,related_to,University
+Cristiano Ronaldo,related_to,NBA
+Royal Academy,announced,Vienna
+Reliance Industries,related_to,South Korea
+Elon Musk,announced,Intel
+Frida Kahlo,related_to,Metropolitan Opera
+Jamie Dimon,related_to,Reliance Industries
+Serena Williams,related_to,Team India
+was,reported,Microsoft
+Barack Obama,related_to,European Union
+Cristiano Ronaldo,related_to,Team India
+1960,related_to,Albert Einstein
+Metropolitan Opera,announced,New York
+Sundar Pichai,related_to,Goldman Sachs
+OpenAI,released,a
+USA,related_to,ICAR
+Marie Curie,related_to,NASA
+Indra Nooyi,related_to,Reliance Industries
+Angela Merkel,related_to,United Nations
+Lionel Messi,related_to,Team India
+1902,related_to,Marie Curie
+Google,released,AI-driven
+Jane Goodall,related_to,Institute
+USA,related_to,CIMMYT
+Frida Kahlo,related_to,Tate Modern
+Louvre Museum,announced,Vienna
+Royal Academy,announced,Madrid
+Reliance Industries,related_to,New York
+OpenAI,released,AI-driven
+was,reported,Google
+Apple,released,AI-driven
+NBA,related_to,UK
+Kamala Harris,related_to,United Nations
+Pablo Picasso,related_to,Royal Academy
+Louvre Museum,announced,New York
+Kamala Harris,related_to,New Delhi
+Louvre Museum,related_to,New York
+The Treaty,related_to,British Empire
+Pablo Picasso,related_to,Louvre Museum
+Frida Kahlo,related_to,Louvre Museum
+Max Planck Institute,reported,Cape Town
+SpaceX,released,AI-driven
+2006,related_to,Jane Goodall
